@@ -2,8 +2,47 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-    <title>Задание 2</title>
+    <title>Задание 3</title>
   </head>
   <body>
+    <form><label>Имя: <input name="name_polz" maxlength="25" size="25" value=""></label><br>
+        <br><label>email:<input name="email_polz" type="email" maxlength="128" size="40" placeholder="Введите ваш email"></label><br>
+        <br><label>Дата рождения: <input name="data_polz" type="date" value="2003-02-01"></label><br>
+        <br><label>Пол:<input name="pol" type="radio" checked="checked"> Мужской</label><label><input name="pol" type="radio"> Женский</label><br>
+        <br>Количество конечностей:
+        <label><input name="kol_kon" type="radio" checked="">2</label>
+        <label><input name="kol_kon" type="radio"> 4</label>
+        <label><input name="kol_kon" type="radio">6</label>
+        <label><input name="kol_kon" type="radio">8</label>
+        <label><input name="kol_kon" type="radio">10</label>
+        <label><input name="kol_kon" type="radio"> 12</label>
+        <label><input name="kol_kon" type="radio">20</label>
+        <label><input name="kol_kon" type="radio">40</label>
+        <label><input name="kol_kon" type="radio">отсутствуют</label>
+ <br>
+        <br><label>Суперспособности:<br>
+            <select name="super" multiple="multiple" size="10">
+                <option value="1">Регенерация</option>
+                <option value="2">Невидимость</option>
+                <option value="3">Техногенез</option>
+                <option value="4">Криогенез</option>
+                <option value="5">Пирогинез</option>
+                <option value="6">Теликинез</option>
+                <option value="7">Полет</option>
+                <option value="8">Контроль энергии</option>
+                <option value="9">Магнетизм</option>
+                <option value="10">мимикрия</option>
+             
+            </select></label><br>
+        <br><label>Поле для биографии:<br>
+            <textarea name="bio" cols="30" rows="20" maxlength="625">Биография</textarea>
+        </label><br>
+        <br><label>
+            С контрактом ознакомлен(а):
+            <input type="checkbox">
+        </label><br>
+        <br><label>
+            <input type="submit" value="Отправить">
+        </label></form>
   </body>
 </html>
