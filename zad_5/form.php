@@ -59,11 +59,11 @@ if (!empty($messages)) {
 
 
     </form>
-    <a  style="margin-top: 15px; color: white;background-color: rgba(26, 177, 136, 0.726);border-radius: 15px;width: 150px;height: 35px;font-size: 20px; text-align: center; padding-top: 10px; text-decoration: none;" href="login.php">ВОЙТИ</a>
+    <a  style="margin-top: 15px; color: white;background-color: rgba(0, 255, 0, 1);border-radius: 15px;width: 150px;height: 35px;font-size: 20px; text-align: center; padding-top: 10px; text-decoration: none;" href="login.php">ВОЙТИ</a>
     
     <?php
     if(!empty($_COOKIE[session_name()])&&!empty($_SESSION['login']))
-    printf('<a  style="margin-top: 15px; color: white;background-color: rgba(26, 177, 136, 0.726);border-radius: 15px;width: 150px;height: 35px;font-size: 20px; text-align: center; padding-top: 10px; text-decoration: none;" href="unlog.php">ВЫЙТИ</a>');
+    printf('<a  style="margin-top: 15px; color: white;background-color: rgba(0, 255, 0, 1);border-radius: 15px;width: 150px;height: 35px;font-size: 20px; text-align: center; padding-top: 10px; text-decoration: none;" href="unlog.php">ВЫЙТИ</a>');
     ?>
   </body>
 </html>
