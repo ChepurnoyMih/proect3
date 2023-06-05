@@ -14,7 +14,7 @@ body {
     height: 600px;
     padding: 30px;
     border: 1px solid rgba(0, 247, 255, 0.404);
-    background-color: rgba(37, 51, 60, 0.288);
+    background-color: rgba(0, 0, 255, 1);
     border-radius: 90px;
 }
 .form_2 {
