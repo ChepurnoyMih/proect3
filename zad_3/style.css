@@ -1,0 +1,42 @@
+header
+{
+	background: url(https://krot.info/uploads/posts/2020-01/1579562106_12-p-foni-dlya-produktovikh-magazinov-90.jpg);
+}
+
+form
+{
+	background: #9ACD32;
+    width: 480px;
+    margin: 20px auto;
+}
+nav
+{
+	background: #98FB98;
+	border-radius: 10px;
+	box-shadow: 0 0 7px 3px #ff4f00;
+
+	padding: 10px 20px 10px 20px;
+	margin: 20px auto;
+	
+}
+
+#n
+{
+    background-color: #00FF00;
+}
+
+#c
+{
+    background-color: #FF8C00;
+}
+
+body
+{
+	background: url(https://img4.goodfon.ru/wallpaper/original/5/4e/ovshchi-spetsii-risunok.jpg);
+}
+
+footer
+{
+	background: #9ACD32;
+}
+
